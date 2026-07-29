@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/indexweather.css" />
+  </head>
+  <body id="body">
+    <div id="container">
+      <div id="uildel">
+        <div id="temp">
+          <h1>Enter Temperature</h1>
+        </div>
+        <div id="degree">
+          <div style="font-size: 30px">
+            <p>Degree</p>
+          </div>
+          <div id="inputbox">
+            <div id="box1">
+              <input id="box2" type="number" />
+            </div>
+            <div id="select1">
+              <select name="celcius" id="celcius1">
+                <option value="celcius">℃</option>
+                <option value="fahrenheit">°F</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="convert">
+          <div style="font-size: 30px">
+            <p>Convert to</p>
+          </div>
+          <div>
+            <select name="celcius2" id="select2">
+              <option value="celcius">Celcius (℃)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+            </select>
+          </div>
+        </div>
+        <div id="convertbutton">
+          <button id="button1">Convert</button>
+        </div>
+      </div>
+      <div id="result">
+        <div id="temp12">0</div>
+      </div>
+    </div>
+
+    <script src="/indexweather.js"></script>
+  </body>
+</html>

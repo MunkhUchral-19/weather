@@ -1,0 +1,98 @@
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+
+#container{
+    width: 1200px; 
+    height: 700px;
+    background-color: rgb(0, 91, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#uildel{
+    width: 595px;
+    height: 690px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#temp{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#degree{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#box2{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+}
+
+#inputbox{
+    display: flex;
+    flex-direction: row;
+}
+#celcius1{
+    height: 46px;
+    width: 100px;
+    font-size: 25px;
+}
+#select2{
+    height: 50px;
+    width: 513px;
+    font-size: 25px;
+}
+#convert{
+    margin-left: 50px;
+}
+
+#convertbutton{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#button1{
+    color: white;
+    background-color: rgb(0, 91, 119);
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#button1:hover{
+    background-color:rgb(1, 67, 86);
+}
+#result{
+    width: 595px;
+    height: 690px;
+    background-color: rgb(0, 91, 119);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#temp12{
+    color: white;
+    font-size: 40px;
+}
